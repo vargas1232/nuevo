@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    background-image: url('http://localhost/nuevo/public/imagen/fondo11.avif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+.login-content {
+    display: flex;
+    gap: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 300px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.image-container p {
+    margin-top: 1rem;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.login-header h2 {
+    margin: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.75rem;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Cambiar a columna para alinear verticalmente */
+    align-items: stretch; /* Asegúrate de que todos los elementos ocupen todo el ancho */
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.error-message {
+    background-color: #f50000; /* Color rojo para el mensaje de error */
+    color: #ffffff; /* Texto en blanco */
+    padding: 0.75rem; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    text-align: center; /* Centrar el texto */
+    margin-top: 0.5rem; /* Espacio superior para separar del campo de entrada */
+    width: 100%; /* Hacer que el mensaje ocupe todo el ancho del contenedor */
+}
+
+
+
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0dc71d;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.register-link a {
+    color: #f50000;
+    text-decoration: none;
+}
+.p{
+    color: rgb(0, 0, 0);
+}

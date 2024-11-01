@@ -1,0 +1,27 @@
+
+.custom-card {
+    background-color: #f9fafb;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card h3 {
+    color: #36af6b;
+}
+
+.custom-card p {
+    color: #4a5568;
+}
+
+.custom-image {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
